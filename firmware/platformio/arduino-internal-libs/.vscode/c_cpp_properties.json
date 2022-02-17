@@ -1,0 +1,65 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/logic/_workspace/arduino-playlist/firmware/platformio/arduino-internal-libs/include",
+                "c:/Users/logic/_workspace/arduino-playlist/firmware/platformio/arduino-internal-libs/src",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/variants/uno2018",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                "C:/Users/logic/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/logic/_workspace/arduino-playlist/firmware/platformio/arduino-internal-libs/include",
+                    "c:/Users/logic/_workspace/arduino-playlist/firmware/platformio/arduino-internal-libs/src",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/variants/uno2018",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                    "C:/Users/logic/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                    "C:/Users/logic/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_UNO_WIFI_REV2",
+                "UNO_WIFI_REV2_328MODE",
+                "MILLIS_USE_TIMERB3",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_MEGAAVR",
+                "ARDUINO=10808",
+                "USB_VID=0x03eb",
+                "USB_PID=0x2145",
+                "USB_PRODUCT=\"Arduino Uno WiFi Rev2\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/logic/.platformio/packages/toolchain-atmelavr@1.70300.191015/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega4809",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
